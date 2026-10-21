@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Municipios en desastre · Estado de carpetas · Santa Cruz</title>
+<title>Municipios Declarados en desastre · Estado de carpetas · Santa Cruz</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <style>
 :root{--bg:#f4f6f8;--panel:#fff;--ink:#1c2833;--mute:#5d6b78;--line:#d8dee4;--head:#16324a;
@@ -63,15 +63,15 @@ li button:focus-visible,.chip:focus-visible{outline:2px solid var(--rev);outline
 /* ===== 1. CONFIGURACIÓN: edite solo este bloque ===== */
 const CONFIG = {
   titulo: "Municipios declarados en desastre",
-  subtitulo: "Gobierno Autónomo Departamental de Santa Cruz · COED / DGRD",
-  corte: "dd/mm/aaaa",                       // fecha de corte de la información
+  subtitulo: "Gobierno Autónomo Departamental de Santa Cruz · DGR",
+  corte: "21/10/2026",                       // fecha de corte de la información
   geojson: "data/municipios.geojson",        // exportado desde QGIS (EPSG:4326)
   provincias: "data/provincias.geojson",     // capa de contexto (opcional)
   decreto: {
-    numero: "Decreto Departamental N° ___/____",
-    fecha: "dd/mm/aaaa",
-    vigencia: "Vigente hasta dd/mm/aaaa",
-    objeto: "Declaratoria de Emergencia Departamental por ______"
+    numero: "Decreto Departamental N° 548/2026",
+    fecha: "28/09/2026",
+    vigencia: "Vigente hasta 30/12/2026",
+    objeto: "Declaratoria de Emergencia Departamental por Variaciones Climaticas y Multilples Eventos Adversos"
   },
   norma: "Ley N° 602 de Gestión de Riesgos y DS N° 2342, art. 63 (documentación de respaldo)",
   total: 56
